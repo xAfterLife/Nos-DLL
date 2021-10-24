@@ -1,0 +1,133 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29913.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"D:\\Program Files (x86)\\Visual Studio\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x005EB1C0 -il C:\\Users\\lisse\\AppData\\Local\\Temp\\_CL_8aa15ed3ast -typedil -f fpsbreaker.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829913 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -GF -Og -Oi -Ot -Oy -ltcg -DCODE_ANALYSIS -DWIN32 -DNDEBUG -DNOSSERVERDLL_EXPORTS -D_WINDOWS -D_USRDLL -D_WINDLL -D_MBCS -D_CRT_SECURE_NO_WARNINGS -EHs -D_CPPUNWIND -EHc -MD -D_MT -D_DLL -GS -fpfast -D_M_FP_FAST -permissive- -Zc:wchar_t -Zc:forScope -std:c++17 -FoRelease\\fpsbreaker.obj -FdRelease\\vc142.pdb -Gd -analyze:projectdirectory D:\\Programmieren\\NosServerDll\\NosServerDll -analyze:rulesetdirectory ;D:\\Program Files (x86)\\Visual Studio\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset D:\\Program Files (x86)\\Visual Studio\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin D:\\Program Files (x86)\\Visual Studio\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I D:\\Programmieren\\NosServerDll\\NosServerDll\\Discord -I D:\\Program Files (x86)\\Visual Studio\\VC\\Tools\\MSVC\\14.28.29910\\include -I D:\\Program Files (x86)\\Visual Studio\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I D:\\Program Files (x86)\\Visual Studio\\VC\\Auxiliary\\VS\\include -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/moduleunloader.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "c4969b04d1388c0a6a47844c8f5be5de"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/moduleunloader.h"
+          },
+          "hashes": {
+            "md5": "e814ae1c6cb3990bead2bf711dbdc936"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/texts.h"
+          },
+          "hashes": {
+            "md5": "80e7b49fd999f8e84e45c95c0e594878"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/obfuscator.hpp"
+          },
+          "hashes": {
+            "md5": "f546b321a22349be1075321c865b7c56"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/meta_random.hpp"
+          },
+          "hashes": {
+            "md5": "93373d491246d7cada6c66ba37c81478"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/utilities.h"
+          },
+          "hashes": {
+            "md5": "4b6664dda83b526e27fec6e91f153b5e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/memscan.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "d73b5d335c023ad9b895b8a98ad05d0f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/memscan.h"
+          },
+          "hashes": {
+            "md5": "b593842b856bec91592272fad9014242"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/hooking.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "2f7205f79febfd4c472da1443125a568"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/hooking.h"
+          },
+          "hashes": {
+            "md5": "aa2c1231de8ebe754e943799da12e1d1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/fpsbreaker.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "6da1dd7b00d9af1b86eba4d9a7631ff5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/fpsbreaker.h"
+          },
+          "hashes": {
+            "md5": "fce16109f5034510c7a83811acb71dfd"
+          }
+        }
+      ]
+    }
+  ]
+}

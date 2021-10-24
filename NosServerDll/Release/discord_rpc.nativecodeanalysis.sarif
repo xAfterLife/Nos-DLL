@@ -1,0 +1,824 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Die Variable \"rapidjson::internal::Double::<unnamed-tag>::u_\" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/rapidjson/internal/ieee754.h"
+                },
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 5,
+                  "endLine": 25,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Double@internal@rapidjson@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "rapidjson::internal::Double::<unnamed-tag>::u_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Die Variable \"rapidjson::internal::Double::<unnamed-tag>::d_\" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/rapidjson/internal/ieee754.h"
+                },
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 5,
+                  "endLine": 25,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0Double@internal@rapidjson@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "rapidjson::internal::Double::<unnamed-tag>::d_"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetischer Überlauf: Wenn Sie den Operator \"-\" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator \"-\" verwenden, um einen Überlauf zu vermeiden (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/rapidjson/internal/diyfp.h"
+                },
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 18,
+                  "endLine": 121,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?NormalizedBoundaries@DiyFp@internal@rapidjson@@QBEXPAU123@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetischer Überlauf: Wenn Sie den Operator \"+\" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator \"+\" verwenden, um einen Überlauf zu vermeiden (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/rapidjson/internal/diyfp.h"
+                },
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 35,
+                  "endLine": 142,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?ToDouble@DiyFp@internal@rapidjson@@QBENXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetischer Überlauf: Wenn Sie den Operator \"-\" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator \"-\" verwenden, um einen Überlauf zu vermeiden (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/rapidjson/internal/diyfp.h"
+                },
+                "region": {
+                  "startLine": 227,
+                  "startColumn": 18,
+                  "endLine": 227,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetCachedPower@internal@rapidjson@@YA?AUDiyFp@12@HPAH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "Der Enumerationstyp \"rapidjson::ParseErrorCode\" umfasst keine Bereichseinschränkung. Geben Sie \"enum class\" Vorrang vor \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/rapidjson/error/error.h"
+                },
+                "region": {
+                  "startLine": 111,
+                  "startColumn": 26,
+                  "endLine": 111,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ParseResult@rapidjson@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "fallthrough-Attribut ohne Anmerkungen zwischen switch-Bezeichnungen (es. 78)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/rapidjson/internal/dtoa.h"
+                },
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 13,
+                  "endLine": 87,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?DigitGen@internal@rapidjson@@YAXABUDiyFp@12@0_KPADPAH3@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Die Variable \"LinearAllocator::buffer_\" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/serialization.h"
+                },
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 2,
+                  "endLine": 63,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0LinearAllocator@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "LinearAllocator::buffer_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Die Variable \"LinearAllocator::end_\" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/serialization.h"
+                },
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 2,
+                  "endLine": 63,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0LinearAllocator@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "LinearAllocator::end_"
+          }
+        },
+        {
+          "ruleId": "C6262",
+          "message": {
+            "text": "Die Funktion verwendet \"51344\" Bytes vom Stapel und überschreitet /analyze:stacksize \"16384\". Verschieben Sie einige Daten auf den Heap."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/discord_rpc.cpp"
+                },
+                "region": {
+                  "startLine": 147,
+                  "startColumn": 13,
+                  "endLine": 147,
+                  "endColumn": 13
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?Discord_UpdateConnection@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Die Variable \"MsgQueue<User,8>::queue_\" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/msg_queue.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 2,
+                  "endLine": 17,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$MsgQueue@UUser@@$07@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "MsgQueue<User,8>::queue_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Die Variable \"MsgQueue<QueuedMessage,8>::queue_\" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/msg_queue.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 2,
+                  "endLine": 17,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$MsgQueue@UQueuedMessage@@$07@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": [],
+          "properties": {
+            "targetSymbol": "MsgQueue<QueuedMessage,8>::queue_"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "Der Enumerationstyp \"rapidjson::Type\" umfasst keine Bereichseinschränkung. Geben Sie \"enum class\" Vorrang vor \"enum\" (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/rapidjson/document.h"
+                },
+                "region": {
+                  "startLine": 2497,
+                  "startColumn": 5,
+                  "endLine": 2497,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0?$GenericDocument@U?$UTF8@D@rapidjson@@V?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@2@V?$FixedLinearAllocator@$0IAA@@@@rapidjson@@QAE@W4Type@1@PAV?$MemoryPoolAllocator@VCrtAllocator@rapidjson@@@1@IPAV?$FixedLinearAllocator@$0IAA@@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29913.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"D:\\Program Files (x86)\\Visual Studio\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x005EB1C0 -il C:\\Users\\lisse\\AppData\\Local\\Temp\\_CL_782ee9ceast -typedil -f Discord\\discord_rpc.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829913 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -GF -Og -Oi -Ot -Oy -ltcg -DCODE_ANALYSIS -DWIN32 -DNDEBUG -DNOSSERVERDLL_EXPORTS -D_WINDOWS -D_USRDLL -D_WINDLL -D_MBCS -D_CRT_SECURE_NO_WARNINGS -EHs -D_CPPUNWIND -EHc -MD -D_MT -D_DLL -GS -fpfast -D_M_FP_FAST -permissive- -Zc:wchar_t -Zc:forScope -std:c++17 -FoRelease\\discord_rpc.obj -FdRelease\\vc142.pdb -Gd -analyze:projectdirectory D:\\Programmieren\\NosServerDll\\NosServerDll -analyze:rulesetdirectory ;D:\\Program Files (x86)\\Visual Studio\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset D:\\Program Files (x86)\\Visual Studio\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin D:\\Program Files (x86)\\Visual Studio\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I D:\\Programmieren\\NosServerDll\\NosServerDll\\Discord -I D:\\Program Files (x86)\\Visual Studio\\VC\\Tools\\MSVC\\14.28.29910\\include -I D:\\Program Files (x86)\\Visual Studio\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I D:\\Program Files (x86)\\Visual Studio\\VC\\Auxiliary\\VS\\include -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/moduleunloader.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "c4969b04d1388c0a6a47844c8f5be5de"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/moduleunloader.h"
+          },
+          "hashes": {
+            "md5": "e814ae1c6cb3990bead2bf711dbdc936"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/texts.h"
+          },
+          "hashes": {
+            "md5": "80e7b49fd999f8e84e45c95c0e594878"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/obfuscator.hpp"
+          },
+          "hashes": {
+            "md5": "f546b321a22349be1075321c865b7c56"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/meta_random.hpp"
+          },
+          "hashes": {
+            "md5": "93373d491246d7cada6c66ba37c81478"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/utilities.h"
+          },
+          "hashes": {
+            "md5": "4b6664dda83b526e27fec6e91f153b5e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/memscan.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "d73b5d335c023ad9b895b8a98ad05d0f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/memscan.h"
+          },
+          "hashes": {
+            "md5": "b593842b856bec91592272fad9014242"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/hooking.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "2f7205f79febfd4c472da1443125a568"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/hooking.h"
+          },
+          "hashes": {
+            "md5": "aa2c1231de8ebe754e943799da12e1d1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/fpsbreaker.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "6da1dd7b00d9af1b86eba4d9a7631ff5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/fpsbreaker.h"
+          },
+          "hashes": {
+            "md5": "fce16109f5034510c7a83811acb71dfd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/rapidjson/internal/ieee754.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "a835012a4e0dbb8445c53c9221735a78"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/rapidjson/internal/diyfp.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "2aa33980f84bc4f7a5c893b96ba3e62e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/rapidjson/error/error.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "00ad01dd0af86e8fb9013b4a5a0f75b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/rapidjson/internal/dtoa.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "9ace5ff46f3c76e2366030b15dd2d539"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/serialization.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "0dba02df3f636a8a9a1ae2655d022f53"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/rapidjson/document.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "abb8c1ac3e46622edb06d28cc2d4f6fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/serialization.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "acb78335c18faccbbdc7b2daf3f698d1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/rapidjson/reader.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "a425d5fefde16bf25511ddc5a270cf07"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/rapidjson/allocators.h"
+          },
+          "hashes": {
+            "md5": "44980cba173fff61fcc4642086d9127b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/rapidjson/rapidjson.h"
+          },
+          "hashes": {
+            "md5": "4302bed9ade8475f15cce67972a1da0d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/rapidjson/internal/meta.h"
+          },
+          "hashes": {
+            "md5": "4816be6e36951e7117f22669f2280470"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/rapidjson/stream.h"
+          },
+          "hashes": {
+            "md5": "ea3b01208c35bf3e16a5bc3404c212eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/rapidjson/encodings.h"
+          },
+          "hashes": {
+            "md5": "4ecbe48020dae094c1a4f0905a620d29"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/rapidjson/encodedstream.h"
+          },
+          "hashes": {
+            "md5": "855442b8ef4fc7ce2bd524547889dc30"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/rapidjson/memorystream.h"
+          },
+          "hashes": {
+            "md5": "b07aadcbc0d81bbf34c0f4c7edb0e0f3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/rapidjson/internal/clzll.h"
+          },
+          "hashes": {
+            "md5": "f789fd3c74d154f103ec10ee6bfdd90c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/rapidjson/internal/stack.h"
+          },
+          "hashes": {
+            "md5": "c433b10a56c8890fc0fac2f05755113e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/rapidjson/internal/swap.h"
+          },
+          "hashes": {
+            "md5": "fa180bdeefceeefdde3bf584c74c0bcb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/rapidjson/internal/strtod.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "6f85dfd96aecc736bce8dc555b47c16f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/rapidjson/internal/biginteger.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "55aa35850af790029c2d7ecc01de6943"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/rapidjson/internal/pow10.h"
+          },
+          "hashes": {
+            "md5": "ba89261c14bd60c4c10101734e896e36"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/rapidjson/internal/strfunc.h"
+          },
+          "hashes": {
+            "md5": "511415ee5b609c92c0541783dcb97255"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/rapidjson/stringbuffer.h"
+          },
+          "hashes": {
+            "md5": "14c2218f4c2e10cd7d1685b3ff8130d7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/rapidjson/writer.h"
+          },
+          "hashes": {
+            "md5": "0be9b5e205f2fb093842baae1fe2972a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/rapidjson/internal/itoa.h"
+          },
+          "hashes": {
+            "md5": "9f4fc01a537f243b9bf7d75bb02db581"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/connection.h"
+          },
+          "hashes": {
+            "md5": "fcf348f81ab86c075f6b9aab53071f47"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/discord_rpc.h"
+          },
+          "hashes": {
+            "md5": "eb92ab8eda8d1a538c154ecc9acf8d1a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/rpc_connection.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "8048d1f3246a6bccbbefeaa5e7ea613f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/rpc_connection.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "48f70c0ea9bb4f95e971f6a92d8ba2f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/discord_rpc.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "67f59a1b40d02e6077b96b3e1c413002"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Programmieren/NosServerDll/NosServerDll/Discord/msg_queue.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "9092077d06413d8242af5499018d8d85"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/backoff.h"
+          },
+          "hashes": {
+            "md5": "929ee9ab86953e815dd8be7941c401d3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programmieren/nosserverdll/nosserverdll/discord/discord_register.h"
+          },
+          "hashes": {
+            "md5": "ce6f9cbbc68048e075f07557e8a81da3"
+          }
+        }
+      ]
+    }
+  ]
+}

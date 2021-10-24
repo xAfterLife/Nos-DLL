@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NosServerDll", "NosServerDll\NosServerDll.vcxproj", "{069DC6C0-7FEF-4361-AB40-F33BE22F0720}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		ObfuscatedRelease|x64 = ObfuscatedRelease|x64
+		ObfuscatedRelease|x86 = ObfuscatedRelease|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{069DC6C0-7FEF-4361-AB40-F33BE22F0720}.Debug|x64.ActiveCfg = Debug|x64
+		{069DC6C0-7FEF-4361-AB40-F33BE22F0720}.Debug|x64.Build.0 = Debug|x64
+		{069DC6C0-7FEF-4361-AB40-F33BE22F0720}.Debug|x86.ActiveCfg = Debug|Win32
+		{069DC6C0-7FEF-4361-AB40-F33BE22F0720}.Debug|x86.Build.0 = Debug|Win32
+		{069DC6C0-7FEF-4361-AB40-F33BE22F0720}.ObfuscatedRelease|x64.ActiveCfg = ObfuscatedRelease|x64
+		{069DC6C0-7FEF-4361-AB40-F33BE22F0720}.ObfuscatedRelease|x64.Build.0 = ObfuscatedRelease|x64
+		{069DC6C0-7FEF-4361-AB40-F33BE22F0720}.ObfuscatedRelease|x86.ActiveCfg = ObfuscatedRelease|Win32
+		{069DC6C0-7FEF-4361-AB40-F33BE22F0720}.ObfuscatedRelease|x86.Build.0 = ObfuscatedRelease|Win32
+		{069DC6C0-7FEF-4361-AB40-F33BE22F0720}.Release|x64.ActiveCfg = Release|x64
+		{069DC6C0-7FEF-4361-AB40-F33BE22F0720}.Release|x64.Build.0 = Release|x64
+		{069DC6C0-7FEF-4361-AB40-F33BE22F0720}.Release|x86.ActiveCfg = Release|Win32
+		{069DC6C0-7FEF-4361-AB40-F33BE22F0720}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56A1180D-45FC-438A-8DD4-630CB4391296}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+#pragma once
+
+#include <vector>
+#include <string>
+
+#define ModuleUnloader A5FDADF72247464AA82FB6CF25670FB3
+#define CheckModules E688628E3F6947CFB68AEAA83553F4DA
+#define Print E54721987EA843F8B14907D86E3C022B
+
+class A5FDADF72247464AA82FB6CF25670FB3
+{
+	std::vector<std::string> modules_;
+
+public:
+
+	A5FDADF72247464AA82FB6CF25670FB3 ();
+
+	std::vector<std::string> E688628E3F6947CFB68AEAA83553F4DA ();
+	void E54721987EA843F8B14907D86E3C022B ();
+};

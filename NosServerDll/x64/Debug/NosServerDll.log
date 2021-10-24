@@ -1,0 +1,13 @@
+﻿  dllmain.cpp
+D:\Programmieren\NosServerDll\NosServerDll\dllmain.cpp(53,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+  fpsbreaker.cpp
+D:\Programmieren\NosServerDll\NosServerDll\fpsbreaker.cpp(25,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+  hooking.cpp
+D:\Programmieren\NosServerDll\NosServerDll\hooking.cpp(121,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+  memscan.cpp
+D:\Programmieren\NosServerDll\NosServerDll\memscan.cpp(68,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+  ModuleUnloader.cpp
+D:\Programmieren\NosServerDll\NosServerDll\ModuleUnloader.cpp(70,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+  packet_logger.cpp
+D:\Programmieren\NosServerDll\NosServerDll\packet_logger.cpp(190,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "pch.h"" einzufügen?
+  Code wird generiert...

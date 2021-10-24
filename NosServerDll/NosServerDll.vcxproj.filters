@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Mods">
+      <UniqueIdentifier>{ffd9d7bb-4ccc-4306-bd81-eca3201dde52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mods\FPS">
+      <UniqueIdentifier>{54b9c493-c745-4119-9280-b4fcc70ddfd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mods\PacketLogger">
+      <UniqueIdentifier>{886e1183-5752-4cd2-a9cf-3d7e5ebf0273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mods\ModuleUnloader">
+      <UniqueIdentifier>{d0f2c884-66dc-485f-b7e7-5552af28131b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord">
+      <UniqueIdentifier>{78bfcb55-ead6-48b7-975a-acb705da8f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord\Includes">
+      <UniqueIdentifier>{4e84301c-9b5e-4618-8135-83185bad52b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord\Includes\Header">
+      <UniqueIdentifier>{051bb2e5-9ce8-4876-be1d-f0eb779514f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord\Includes\Source">
+      <UniqueIdentifier>{1bee6070-262a-4502-be31-be1fb8f8fa83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Utils">
+      <UniqueIdentifier>{f7d0ce84-d4ca-49fa-a378-70d8bb09a58e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Utils">
+      <UniqueIdentifier>{df86193c-0dec-462e-80d6-2951d7bc6840}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="fpsbreaker.cpp">
+      <Filter>Mods\FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="packet_logger.cpp">
+      <Filter>Mods\PacketLogger</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleUnloader.cpp">
+      <Filter>Mods\ModuleUnloader</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord.cpp">
+      <Filter>Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\connection_win.cpp">
+      <Filter>Discord\Includes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\discord_register_win.cpp">
+      <Filter>Discord\Includes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\discord_rpc.cpp">
+      <Filter>Discord\Includes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\rpc_connection.cpp">
+      <Filter>Discord\Includes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord\serialization.cpp">
+      <Filter>Discord\Includes\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="hooking.cpp">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="memscan.cpp">
+      <Filter>Quelldateien\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NostaleStrings.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="fpsbreaker.h">
+      <Filter>Mods\FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="packet_logger.h">
+      <Filter>Mods\PacketLogger</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleUnloader.h">
+      <Filter>Mods\ModuleUnloader</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePointer.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="VerificationHelper.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Texts.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord.h">
+      <Filter>Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\backoff.h">
+      <Filter>Discord\Includes\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\connection.h">
+      <Filter>Discord\Includes\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\discord_register.h">
+      <Filter>Discord\Includes\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\discord_rpc.h">
+      <Filter>Discord\Includes\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\msg_queue.h">
+      <Filter>Discord\Includes\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\rpc_connection.h">
+      <Filter>Discord\Includes\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord\serialization.h">
+      <Filter>Discord\Includes\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="hooking.h">
+      <Filter>Headerdateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="memscan.h">
+      <Filter>Headerdateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="meta_random.hpp">
+      <Filter>Headerdateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="obfuscator.hpp">
+      <Filter>Headerdateien\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Headerdateien\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
